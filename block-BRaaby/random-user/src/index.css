@@ -31,23 +31,21 @@ img {
   position: relative;
   border: 1px solid black;
   border-radius: 50%;
-
-  margin-top: -60px;
-  padding: 60px;
+  padding: 20px;
 }
 .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-h4 {
+p {
   color: rgb(159, 160, 162);
   font-size: 20px;
 }
-h2 {
+strong {
   color: rgb(18, 36, 61);
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 24px;
+  margin-right: 15px;
 }
 .nav {
   padding: 20px;
@@ -66,4 +64,24 @@ h2 {
 .btn:hover {
   color: whitesmoke;
   background-color: rgb(36, 37, 45);
+}
+
+details {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #09f;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
