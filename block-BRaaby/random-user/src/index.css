@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(234, 237, 250);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+header {
+  background-color: rgb(36, 37, 45);
+  padding: 150px;
+  position: relative;
+}
+.container {
+  border: 1px solid black;
+  background-color: white;
+  width: 400px;
+  position: absolute;
+  left: 550px;
+  top: 190px;
+  text-align: center;
+  padding: 60px;
+}
+img {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+p {
+  color: rgb(159, 160, 162);
+  font-size: 20px;
+}
+strong {
+  color: rgb(18, 36, 61);
+  font-size: 24px;
+  margin-right: 15px;
+}
+.nav {
+  padding: 20px;
+  font-size: 25px;
+  color: rgb(103, 127, 162);
+}
+.btn {
+  background-color: rgb(96, 162, 211);
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.btn:hover {
+  color: whitesmoke;
+  background-color: rgb(36, 37, 45);
+}
+
+details {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #09f;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
